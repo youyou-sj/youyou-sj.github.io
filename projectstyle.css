@@ -2,7 +2,20 @@ body{
   background-image: url("background1.png");
 }
 
-#rectangles{ /* Border width */background-color: rgb(248,248,255,.93);
+#rectangles{ background-color: rgb(248,248,255,.93);
+  border-radius: 10px
+  display: block;
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: brown;
+  border-radius: 5px;
 }
 
 p{font-family: "华文中宋",sans-serif;
@@ -23,6 +36,23 @@ fieldset {
     border-radius: 5px;
 
 }
+#title{
+  text-align:center;
+  background-color: #FFE5CC;
+  border: 2px solid #422800;
+  border-radius: 10px;
+  box-shadow: #422800 4px 2px 0 0;
+  color: #994C00;
+  font-weight: 600;
+  font-size: 30px;
+  padding: 20px 30px;
+  line-height: 30px;
+  text-align: center;
+
+}
+
+#os{color: brown}
+#NoCount{color:grey}
 
  button
  {
@@ -59,3 +89,6 @@ fieldset {
     padding: 0 25px;
   }
 }}
+
+
+}

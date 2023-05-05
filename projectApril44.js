@@ -1,17 +1,141 @@
 
-function check1(){
-  alert("Q1:加塞是客家话里的“吃完了”，同样的发音在福建话是吃大便的意思:D")}
 
-//礼物//
-function song1(){
-  var x = document.getElementById("songSILKROADyt");
+function check1(){
+  alert("Q1:加塞是客家话里的“吃完了”，同样的发音在福建话是吃大便的意思:D/Q2:蘑菇的韩文是버섯(beosot)，韩国没有馒头所以没有特称，土豆的韩文是감자(KamJa)//Q4的解释在个别的选项里噢！//Q5：马来文中，星期一:Isnin|星期二:Selesa|星期三:Rabu|星期四:Khamis|星期五:Jumaat|星期六:Sabtu|星期日:Ahad//")}
+
+var score=0;
+
+//图片提示//
+  function tips1(){
+    var z = document.getElementById("firstpuzzle");
+    z.style.display="block";
+  }
+
+  function tips2(){
+    var y = document.getElementById("secondpuzzle");
+    y.style.display="block";
+  }
+
+  function tips3(){
+    var x = document.getElementById("secondpuzzleS");
+    x.style.display="block";
+  }
+
+  function QA1(){
+    var response=prompt("os：回答完整“星期__”");
+    if (response=="星期二") {
+      alert("正确答案！");
+      score+=20;
+    } else {
+      alert("错误答案！")
+
+    }
+  }
+
+  function QA2(){
+    var response=prompt("os：回答完整“__时”");
+    if (response=="申时") {
+      alert("正确答案！");
+      score+=20;
+    } else {
+      alert("错误答案！")
+
+    }
+  }
+  function QA3(){
+    var response=prompt("是7个字母的英文单词噢！全部小写！");
+    if (response=="dessert") {
+      alert("正确答案！");
+      score+=15;
+    } else {
+      alert("错误答案！")
+
+    }
+  }
+  function QA4(){
+    var response=prompt("os：回答完整“星期__”");
+    if (response=="星期四") {
+      alert("正确答案！");
+      score+=15;
+    } else {
+      alert("错误答案！")
+
+    }
+  }
+
+  function QA5(){
+    var response=prompt("os：回答完整“星期__”");
+    if (response=="星期一") {
+      alert("正确答案！");
+      score+=15;
+    } else {
+      alert("错误答案！")
+
+    }
+  }
+
+  function QA6(){
+    var response=prompt("os: 四个字！嘿嘿是不是感觉刚看过");
+    if (response=="海市蜃楼") {
+      alert("正确答案！");
+      score+=15;
+    } else {
+      alert("错误答案！")
+
+    }
+  }
+
+  function QA7(){
+    var response=prompt("os: 可以点第一题“拼写”的按钮噢！");
+    if (response=="巳时") {
+      alert("正确答案！");
+      score+=15;
+    } else {
+      alert("错误答案！")
+
+    }
+  }
+
+  function QA8(){
+    var response=prompt("os: 可以点第一题“拼写”的按钮噢！");
+    if (response=="酉时") {
+      alert("正确答案！");
+      score+=15;
+    } else {
+      alert("错误答案！")
+
+    }
+  }
+//分数//
+
+function scoreCount(){
+  if(score==100){
+    alert("你的分数是"+score+",你有令我羡慕的基础知识！好厉害！")
+  }
+  if (score>16&score<=90) {
+      alert("你的分数是"+score+"，真不错！有兴趣的话一起学习复习吧！")
+  }
+  if (score=>0&score<=15) {
+      alert("你的分数是"+score+",有兴趣的话可以上去把这些知识记住噢！")
+  }
+  if (score>100) {
+      alert("你的分数是"+score+",是不是重复做答了！给我抓到了啊哈哈哈哈！！")
+  }
 }
+//礼物//
+
+
 function song2(){
   var y = document.getElementById("songSILKROADb");}
 
+  function song3(){
+    var y = document.getElementById("songNorwegianWoodyt")}
+
+  function song4(){
+    var y = document.getElementById("songNorwegianWoodb");}
 
 
-//Quiz选项//
+//Quiz选择题//
 function answer1(){
   alert("错了！小声告诉你‘加塞’是客家话里的“吃完了”，同样的发音在福建话是吃大便的意思:D")}
 

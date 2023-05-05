@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Say It!</title>
+    <title>go QUIZ!</title>
   </head>
 
   <body>
@@ -10,10 +10,41 @@
     <script src="projectApril44.js"></script>
     <link rel="stylesheet" href="projectstyle.css">
 
-    <h2 style="text-align:center">呼啊！어서오세요！欢迎光→临！</h2>
-    <h1 style="text-align:center;padding:22px">无预警语言考试</h1>
+    <h2 style="text-align:center;color:white">呼啊！어서오세요！欢迎光→临！</h2>
+<br>
+    <h1 id="title">啪！无预警(语言)问答学习</h1>
+
+    <br></br>
+
     <div id="rectangles">
 
+            <fieldset>
+              <p>Q1：部分地区的一个星期的七天分别代表了构成宇宙的五种基本元素，以及太阳和月亮，请问"火"代表的是星期几？   </p>
+              <button type="button" name="QA1" onclick="QA1()"><b>点击回答！</b></button>
+              <button type="button" name="tips" onclick="tips1()"><b>我不会~</b></button>
+              <ul id="firstpuzzle" style=" display: none">
+              <img src="day.jpeg">
+              </ul>
+
+            </fieldset>
+
+            <fieldset>
+              <p>Q2：请问你知道时辰吗？请问下午3时至下午5时是对照什么时辰呢？</p>
+              <button type="button" name="QA2" onclick="QA2()"><b>点击回答！</b></button>
+              <button type="button" name="tips" onclick="tips2()"><b>我不会~</b></button>
+              <button type="button" name="tips" onclick="tips3()"><b>拼写</b></button>
+              <ul id="secondpuzzle" style=" display: none">
+              <img src="time.jpg">
+              </ul>
+              <ul id="secondpuzzleS" style="display: none">
+              <img src="timespeak.jpg">
+              </ul>
+
+            </fieldset>
+
+
+
+      <p> 趣味语言quiz时间！</p>
     <fieldset>
       <fieldset class ="Quiz">
         <p id="1st"> Quiz 1 : "夹塞"在以下那种方言中是吃饱/吃完的意思？</p>
@@ -29,7 +60,7 @@
           <button type="button" name="answer21" onclick="answer3()"><b>蘑菇</b></button>
           <button type="button" name="answer22" onclick="answer2()"><b>饺子</b></button>
           <button type="button" name="answer23" onclick="answer23()"><b>馒头</b></button>
-          <button type="button" name="answer24" onclick="answer3()"><b>年糕</b></button>
+          <button type="button" name="answer24" onclick="answer3()"><b>土豆/马铃薯</b></button>
     </fieldset>
 
     <fieldset>
@@ -68,31 +99,67 @@
           <button type="button" name="answer64" onclick="answer3()"><b>有趣</b></button>
     </fieldset>
 
-    <fieldset>
-        <p id="seventh"> Quiz 7：部分地区的一个星期的七天分别代表了构成宇宙的五种基本元素，以及太阳和月亮，请问"木"和"金"分别代表的是星期几？</p>
-        <div style="text-align:left;">
-          <button type="button" name="answer71" onclick="answer3()"><b>星期二、星期三</b></button>
-          <button type="button" name="answer72" onclick="answer3()"><b>星期二、星期四</b></button>
-          <button type="button" name="answer73" onclick="answer73()"><b>星期四、星期五</b></button>
-          <button type="button" name="answer74" onclick="answer3()"><b>星期五、星期六</b></button>
-    </fieldset>
 
-      <button type="button" name="check1" onclick="check1()" style="text-align:center;background:brown;width:200px;height:40px;color:white;">小解析</button>
 
-<p id="os">打不开礼物，可以换着打开，准备了好几份嘿嘿</p>
+      <button type="button" name="check1" onclick="check1()" style="text-align:center;background:#CC6600;width:200px;height:40px;color:white;">小解析</button>
+
+ <p>OK！所以你还记得上面的知识点吗！随机紧急拷问！</p>
+
+ <fieldset>
+  <p>Q3：你会弄乱吗？请问甜点的英文单词是？</p>
+  <button type="button" name="QA3" onclick="QA3()"><b>点击回答</b></button>
+ </fieldset>
+
+ <fieldset>
+  <p>Q4：部分地区的一个星期的七天分别代表了构成宇宙的五种基本元素，以及太阳和月亮，请问"木"代表的是星期几？</p>
+  <button type="button" name="QA4" onclick="QA4()"><b>点击回答</b></button>
+ </fieldset>
+
+ <fieldset>
+  <p>Q5：部分地区的一个星期的七天分别代表了构成宇宙的五种基本元素，以及太阳和月亮，请问"月"代表的是星期几？</p>
+  <button type="button" name="QA5" onclick="QA5()"><b>点击回答</b></button>
+ </fieldset>
+
+ <fieldset>
+  <p>Q6：Mirage是什么？（四字）</p>
+  <button type="button" name="QA6" onclick="QA6()"><b>点击回答</b></button>
+ </fieldset>
+
+ <fieldset>
+  <p>Q7：请问上午9时至上午11时是对照什么时辰呢？</p>
+  <button type="button" name="QA7" onclick="QA7()"><b>点击回答</b></button>
+ </fieldset>
+
+ <fieldset>
+  <p>Q8：请问下午5时至下午7时是对照什么时辰呢？</p>
+  <button type="button" name="QA8" onclick="QA8()"><b>点击回答</b></button>
+ </fieldset>
+
+  <p id="NoCount">趣味选择题只是扰乱！没有积分噢哈哈哈</p>
+    <button type="button" name="score" onclick="scoreCount()"><b>分数计算</b></button>
+
+
+<p id="os">谢谢你耐心玩到这里！打不开礼物，可以换着打开，准备了好几份嘿嘿，拜拜!!</p>
+
       <div id ="songSILKROADyt">
-        <a href="https://www.youtube.com/watch?v=LwaZVMERWdQ" target="_blank">
-          <button type="button" name="song1" onclick="song1()" style="text-align:center;background:brown;width:200px;height:40px;color:white;">礼/物</button>
+        <a href="https://www.youtube.com/watch?v=LwaZVMERWdQ"  target=_blank;>
+          <button type="button" name="song1" onclick="song1()" style="text-align:center;background:brown;width:200px;height:40px;color:white;">礼物</button>
         </a>
 
       <div id="songSILKROADb">
         <a href="https://www.bilibili.com/video/BV13v411e764/" target="_blank">
-          <button type="button" name="song2" onclick="song2()" style="text-align:center;background:brown;width:200px;height:40px;color:white;">/礼物</button>
+          <button type="button" name="song2" onclick="song2()" style="text-align:center;background:brown;width:200px;height:40px;color:white;">Present</button>
         </a>
 
+        <div id ="songNorwegianWoodyt">
+          <a href="https://www.youtube.com/watch?v=ShYLgpfW7aU" target="_blank">
+            <button type="button" name="song3" onclick="song3()" style="text-align:center;background:brown;width:200px;height:40px;color:white;">|선물|</button>
+          </a>
 
-<p> testing </p>
-
+        <div id ="songNorwegianWoodb">
+          <a href="https://www.bilibili.com/video/BV1zY411h79y/" target="_blank">
+            <button type="button" name="song4" onclick="song4()" style="text-align:center;background:brown;width:200px;height:40px;color:white;">|贈り物|</button>
+          </a>
 
   </body>
 </html>

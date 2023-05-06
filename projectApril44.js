@@ -112,14 +112,14 @@ function scoreCount(){
   if(score==100){
     alert("你的分数是"+score+",你有令我羡慕的基础知识！好厉害！")
   }
-  if (score>16&score<=90) {
-      alert("你的分数是"+score+"，真不错!!!!恭喜恭喜!")
+  if (score>14&&score<=90) {
+      alert("你的分数是"+score+"，真不错！恭喜恭喜！一起学习吧！")
   }
-  if (score=0&score<=15) {
-      alert("你的分数是"+score+",有兴趣的话可以上去把这些知识记住噢！一起学习复习!")
+  if (score==0) {
+      alert("你的分数是"+score+",有兴趣的话可以把这些知识记住噢！")
   }
   if (score>100) {
-      alert("你的分数是"+score+",是不是重复做答了！给我抓到了啊哈哈哈哈！！")
+      alert("你的分数是"+score+",是不是重复做答了！给我抓到了啊哈哈！！")
   }
 }
 //礼物//

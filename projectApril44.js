@@ -1,7 +1,7 @@
 
 
 function check1(){
-  alert("Q1:加塞是客家话里的“吃完了”，同样的发音在福建话是吃大便的意思:D/Q2:蘑菇的韩文是버섯(beosot)，韩国没有馒头所以没有特称，土豆的韩文是감자(KamJa)//Q4的解释在个别的选项里噢！//Q5：马来文中，星期一:Isnin|星期二:Selesa|星期三:Rabu|星期四:Khamis|星期五:Jumaat|星期六:Sabtu|星期日:Ahad//")}
+alert("Hello ~ Q1:加塞是客家话里的“吃完了”，同样的发音在福建话是吃大便的意思:D /Q2:蘑菇的韩文是버섯(beosot)，韩国没有馒头所以没有特称，土豆的韩文是감자(KamJa)//Q4的解释在个别的选项里噢！//Q5：马来文中，星期一:Isnin|星期二:Selesa|星期三:Rabu|星期四:Khamis|星期五:Jumaat|星期六:Sabtu|星期日:Ahad//")}
 
 var score=0;
 

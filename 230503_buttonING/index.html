@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>random QUIZ!</title>
+  </head>
+
+  <body>
+
+    <script src="projectApril44.js"></script>
+    <link rel="stylesheet" href="projectstyle.css">
+
+    <h2 style="text-align:center;color:white">呼啊！어서오세요！欢迎光→临！</h2>
+<br>
+    <h1 id="titleee">啪！无预警(语言)问答学习</h1>
+
+    <br></br>
+
+    <div id="rectangles">
+
+            <fieldset>
+              <p>Q1：部分地区的一个星期的七天分别代表了构成宇宙的五种基本元素，以及太阳和月亮，请问"火"代表的是星期几？   </p>
+              <button type="button" name="QA1" onclick="QA1()"><b>点击回答！</b></button>
+              <button type="button" name="tips" onclick="tips1()"><b>我不会~</b></button>
+              <ul id="firstpuzzle" style=" display: none">
+              <img src="day.jpeg">
+              </ul>
+
+            </fieldset>
+
+            <fieldset>
+              <p>Q2：请问你知道时辰吗？请问下午3时至下午5时是对照什么时辰呢？</p>
+              <button type="button" name="QA2" onclick="QA2()"><b>点击回答！</b></button>
+              <button type="button" name="tips" onclick="tips2()"><b>我不会~</b></button>
+              <button type="button" name="tips" onclick="tips3()"><b>拼音</b></button>
+              <ul id="secondpuzzle" style=" display: none">
+              <img src="time.jpg">
+              </ul>
+              <ul id="secondpuzzleS" style="display: none">
+              <img src="timespeak.jpg">
+              </ul>
+
+            </fieldset>
+
+
+
+      <p> 趣味语言quiz时间！</p>
+    <fieldset>
+      <fieldset class ="Quiz">
+        <p id="1st"> Quiz 1 : "夹塞"在以下那种方言中是吃饱/吃完的意思？</p>
+        <div style="text-align:left;">
+          <button type="button" name="answer1" onclick="answer1()"><b>福建话（闽南语）</b></button>
+          <button type="button" name="answer2" onclick="answer2()"><b>客家话</b></button>
+          <button type="button" name="answer3" onclick="answer3()"><b>广东话（粤语）</b></button>
+    </fieldset>
+
+    <fieldset>
+        <p id="second"> Quiz 2 : "만두(读：Man Du)"是什么食物？</p>
+        <div style="text-align:left;">
+          <button type="button" name="answer21" onclick="answer3()"><b>蘑菇</b></button>
+          <button type="button" name="answer22" onclick="answer2()"><b>饺子</b></button>
+          <button type="button" name="answer23" onclick="answer23()"><b>馒头</b></button>
+          <button type="button" name="answer24" onclick="answer3()"><b>土豆/马铃薯</b></button>
+    </fieldset>
+
+    <fieldset>
+        <p id="third"> Quiz 3 : 以下哪一个不是"Aurora(欧若拉)"能代表的意思？</p>
+        <div style="text-align:left;">
+          <button type="button" name="answer31" onclick="answer31()"><b>极光</b></button>
+          <button type="button" name="answer32" onclick="answer31()"><b>曙光</b></button>
+          <button type="button" name="answer33" onclick="answer34()"><b>夕阳</b></button>
+          <button type="button" name="answer34" onclick="answer31()"><b>晨曦</b></button>
+    </fieldset>
+
+    <fieldset>
+        <p id="forth"> Quiz 4 : Desert是沙漠，Mirage是海市蜃楼，请问Oasis是？</p>
+        <div style="text-align:left;">
+          <button type="button" name="answer41" onclick="answer41()"><b>海湾</b></button>
+          <button type="button" name="answer42" onclick="answer42()"><b>丝路</b></button>
+          <button type="button" name="answer43" onclick="answer43()"><b>盆地</b></button>
+          <button type="button" name="answer44" onclick="answer44()"><b>绿洲</b></button>
+    </fieldset>
+
+    <fieldset>
+        <p id="fifth"> Quiz 5 : 直觉题！你猜马来文"Khamis（读作卡米丝）"是星期几的意思？</p>
+        <div style="text-align:left;">
+          <button type="button" name="answer51" onclick="answer3()"><b>星期一</b></button>
+          <button type="button" name="answer52" onclick="answer3()"><b>星期二</b></button>
+          <button type="button" name="answer53" onclick="answer3()"><b>星期三</b></button>
+          <button type="button" name="answer54" onclick="answer54()"><b>星期四</b></button>
+    </fieldset>
+
+    <fieldset>
+        <p id="sixth"> Quiz 6 : 广东话（粤语）中的"叻"形容什么？</p>
+        <div style="text-align:left;">
+          <button type="button" name="answer61" onclick="answer61()"><b>聪明</b></button>
+          <button type="button" name="answer62" onclick="answer3()"><b>漂亮</b></button>
+          <button type="button" name="answer63" onclick="answer3()"><b>大方</b></button>
+          <button type="button" name="answer64" onclick="answer3()"><b>有趣</b></button>
+    </fieldset>
+
+<br>
+      <button type="button" name="check1" onclick="check1()" style="width:180px;height:30px;background:#CC6600;color:white">小解析</button>
+
+ <p>OK！所以你还记得上面的知识点吗！随机紧急拷问！</p>
+
+ <fieldset>
+  <p>Q3：你会弄乱吗？请问甜点的英文单词是？</p>
+  <button type="button" name="QA3" onclick="QA3()"><b>点击回答</b></button>
+ </fieldset>
+
+ <fieldset>
+  <p>Q4：部分地区的一个星期的七天分别代表了构成宇宙的五种基本元素，以及太阳和月亮，请问"木"代表的是星期几？</p>
+  <button type="button" name="QA4" onclick="QA4()"><b>点击回答</b></button>
+ </fieldset>
+
+ <fieldset>
+  <p>Q5：部分地区的一个星期的七天分别代表了构成宇宙的五种基本元素，以及太阳和月亮，请问"月"代表的是星期几？</p>
+  <button type="button" name="QA5" onclick="QA5()"><b>点击回答</b></button>
+ </fieldset>
+
+ <fieldset>
+  <p>Q6：Mirage是什么？（四字）</p>
+  <button type="button" name="QA6" onclick="QA6()"><b>点击回答</b></button>
+ </fieldset>
+
+ <fieldset>
+  <p>Q7：请问上午9时至上午11时是对照什么时辰呢？</p>
+  <button type="button" name="QA7" onclick="QA7()"><b>点击回答</b></button>
+ </fieldset>
+
+ <fieldset>
+  <p>Q8：请问下午5时至下午7时是对照什么时辰呢？</p>
+  <button type="button" name="QA8" onclick="QA8()"><b>点击回答</b></button>
+ </fieldset>
+
+<div id = "os">
+
+  <p>趣味选择题只是扰乱！没有积分噢哈哈哈</p>
+    <button type="button" name="score" onclick="scoreCount()" style="text-align:center;background:#FFE5CC;width:170px;height:50px;"><b>分数计算</b></button>
+
+
+<p>谢谢你耐心玩到这里！这里有一些礼物##打不开礼物，可以换着打开，准备了好几份嘿嘿，拜拜!!</p>
+
+      <div id ="songSILKROADyt">
+        <a href="https://www.youtube.com/watch?v=LwaZVMERWdQ"  target=_blank;>
+          <button type="button" name="song1" onclick="song1()" style="text-align:center;background:brown;width:200px;height:40px;color:white;">礼物</button>
+        </a>
+
+      <div id="songSILKROADb">
+        <a href="https://www.bilibili.com/video/BV13v411e764/" target="_blank">
+          <button type="button" name="song2" onclick="song2()" style="text-align:center;background:brown;width:200px;height:40px;color:white;">Present</button>
+        </a>
+
+        <div id ="songNorwegianWoodyt">
+          <a href="https://www.youtube.com/watch?v=ShYLgpfW7aU" target="_blank">
+            <button type="button" name="song3" onclick="song3()" style="text-align:center;background:brown;width:200px;height:40px;color:white;">|선물|</button>
+          </a>
+
+        <div id ="songNorwegianWoodb">
+          <a href="https://www.bilibili.com/video/BV1zY411h79y/" target="_blank">
+            <button type="button" name="song4" onclick="song4()" style="text-align:center;background:brown;width:200px;height:40px;color:white;">|贈り物|</button>
+          </a>
+
+  </body>
+</html>

@@ -2,7 +2,7 @@
 #Spring {background-image: url("ag1.jpg")}
 #Summer {background-image: url("summer9.jpg")}
 #Autumn {background-image: url("ab1.jpg")}
-#Winter {background-image: url("spring.jpg")}
+#Winter {background-image: url("winter3.jpg")}
 
 
 
@@ -13,7 +13,33 @@ h5 {font-family: "FangSong";}
 h6 {font-family: "FangSong";}
 p {font-family: "fantasy",papyrus;}
 
+.card-title {font-size: 27px;
+  font-family: "fantasy",papyrus;}
+.card-text{font-size: 12px;
+  font-family: "FangSong";
+
+}
+
 #toast1 {color: black}
+#toast2 {color: black}
+
+.dropdown-item {font-family: "Candara"}
+
+
+.tales {
+  width: 100%;
+}
+
+
+#AutumeC.carousel.slide {
+    width: 70%;
+    max-width: 400px; !important
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
 
 #internjump {
   font-family: "Open Sans", sans-serif;
@@ -24,7 +50,8 @@ p {font-family: "fantasy",papyrus;}
   color: #000;
   cursor: pointer;
   border: 3px solid;
-  padding: 0.25em 0.5em;
+  padding: 0.25em 10px;
+  width: 132px;
   box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
   position: relative;
   user-select: none;
@@ -32,11 +59,6 @@ p {font-family: "fantasy",papyrus;}
   touch-action: manipulation;
 }
 
-.button-54:active {
-  box-shadow: 0px 0px 0px 0px;
-  top: 5px;
-  left: 5px;
-}
 
 
 

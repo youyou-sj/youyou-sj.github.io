@@ -1,12 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Eat Eat</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="projectbootstrapMay.css">
     <script src="projectbootstrapMayS.js"></script>
 
@@ -56,13 +54,11 @@
 
          <!--side info-->
          <li class="nav-item dropdown ">
- <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+ <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">5th Season</a>
  <ul class="dropdown-menu">
-   <li><a class="dropdown-item" href="#">Action</a></li>
-   <li><a class="dropdown-item" href="#">Another action</a></li>
-   <li><a class="dropdown-item" href="#">Something else here</a></li>
+   <p><a class="dropdown-item" >jaimes97410@gmail.com</a></p>
    <li><hr class="dropdown-divider"></li>
-   <li><a class="dropdown-item" href="#">Separated link</a></li>
+   <p><a class="dropdown-item" >wechat@shuangJi3</a></p>
 
  </ul>
 </ul>
@@ -79,137 +75,269 @@
          <h1>春·我</h1>
          <p>With the colors and personalities.</p>
 
+         <!--first carousel-->
+         <div id="carouselExampleCaptions" class="carousel slide">
+           <div class="carousel-indicators">
+             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+           </div>
+           <div class="carousel-inner">
+             <div class="carousel-item active">
+               <img src="maronF.jpg" class="d-block w-100" alt="...">
+               <div class="carousel-caption d-none d-md-block">
+                 <h5>Maron</h5>
+                 <p>Macaron.</p>
+               </div>
+             </div>
+             <div class="carousel-item">
+               <img src="chiruF.jpg" class="d-block w-100" alt="...">
+               <div class="carousel-caption d-none d-md-block">
+                 <h5>Chiru</h5>
+                 <p>Chicken Kaarage.Bento.</p>
+               </div>
+             </div>
+             <div class="carousel-item">
+               <img src="mykoriF3.jpg" class="d-block w-100" alt="...">
+               <div class="carousel-caption d-none d-md-block">
+                 <h5>Mykori</h5>
+                 <p>Dessert Cafe.</p>
+               </div>
+             </div>
+             <div class="carousel-item">
+               <img src="maronF2.jpg" class="d-block w-100" alt="...">
+               <div class="carousel-caption d-none d-md-block">
+                 <h5>Maron</h5>
+                 <p>Macaron.</p>
+               </div>
+             </div>
+             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+           </div>
+
+         </div>
+         <p></p>
          <h3>又又</h3>
          <h5>中国传媒大学 广告学院 19级广告学（数字营销方向）</h5>
            <h5>兴趣研究方向：程序化广告、定向设置、互动营销设计</h5>
-          <h5>实习工作经历：Maron、Mykori</h5>
-          <a class ="nav-link" href="#Winter" id="internjump">@WINTER</a>
-
-
-          <h6>曾担任学校季刊美术编辑、文字编辑（2年）</h6>
-          <h6>社会实践：研究国潮品牌跨文化传播</h6>
-
-            <button type="button" class="btn btn-secondary" id="liveToastBtn">实践详情</button>
-
-            <div class="toast-container position-fixed bottom-0 end-0 p-3">
-              <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-                <div class="toast-header">
-                  <img src="..." class="rounded me-2" alt="...">
-                  <strong class="me-auto">国潮_社会实践</strong>
-                  <small>11 mins ago</small>
-                  <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-                </div>
-                <div class="toast-body" id="toast1">
-                  深入调查研究了在华留学生对于以百雀羚、李宁为代表的国潮品牌的了解、消费情况、综合印象，以及对中国文化融入时尚设计的偏好和接纳程度，进而探究国潮元素对本土品牌跨文化传播的影响。在实践中，我们计划为中国本土品牌利用国潮元素进行跨文化传播提供参考，提高中国企业的国际知名度和认可度，让带有中国文化特色和文化符号的优秀产品走向世界。
-                </div>
-              </div>
-            </div>
-
-
+          <h5>实习工作经历：Maron、Mykori、Chiru（TienTien Yogurt）</h5>
+          <a class ="nav-link" href="#Autumn" id="internjump">@AUTUMN</a>
 
 
         </div>
 
         <div id="Summer" class="bg-success-subtle text-white" style="padding:140px 20px;">
-         <h1>Section 2</h1>
+         <h1>夏·生</h1>
          <p>Charmed by the sky as the Moon shines bright.</p>
          <h5>腊月初一 生<h5>
+        <h5>大四学 生</h5>
+        <h5>漂浮在四季炎炎夏日——马来西亚的芸芸众 生<h5>
+          <h5></h5>
         <h6>可沟通↓<h6>
           <h6>母语：中文<h6>
           <h6>国语：马来文<h6>
-          <h6>考证：韩文 英文<h6>
+          <h6>考证：英文 韩文（Topik5）<h6>
+            <p></p>
+            毕业学术研究项目：微型个体企业的程序化广告定向设置研究
+            <button type="button" class="btn btn-secondary" id="liveToastBtn2">学术详情</button>
+
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+              <div id="liveToast2" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+
+                  <strong class="me-auto">毕业学术论文</strong>
+
+                  <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body" id="toast2">
+                  研究采用参与式观察法，通过笔者与马来西亚一家电脑硬件维修的微型个体企业合作，在Facebook上进行打印机维修主题的程序化广告投放的实验。
+        实验分为三组：第一组实验为定向设置参考组进行投放，第二组实验与第三组实验使用A/B测试辅助进行投放。两组的A/B测试中，以投放区域的扩展距离和中心点作为测试元素，与参考组进行比较分析。
+        本文基于实验数据，将实验的总结归纳为五个定向部分：兴趣追踪的关键词、推算的投放成本、受众的规模、用户的年龄与投放区域的覆盖范围，利于今后的投放研究以及微型个体企业的投放使用。
+  </div>
+              </div>
+            </div>
+            <p></p>
+
+            <p></p>
+            <h6>曾担任学校季刊美术编辑、文字编辑（2年）</h6>
+            <h6>社会实践：研究国潮品牌跨文化传播
+
+              <button type="button" class="btn btn-secondary" id="liveToastBtn">实践详情</button>
+
+              <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                  <div class="toast-header">
+
+                    <strong class="me-auto">国潮_社会实践</strong>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                  </div>
+                  <div class="toast-body" id="toast1">
+                    深入调查研究了在华留学生对于以百雀羚、李宁为代表的国潮品牌的了解、消费情况、综合印象，以及对中国文化融入时尚设计的偏好和接纳程度，进而探究国潮元素对本土品牌跨文化传播的影响。在实践中，我们计划为中国本土品牌利用国潮元素进行跨文化传播提供参考，提高中国企业的国际知名度和认可度，让带有中国文化特色和文化符号的优秀产品走向世界。
+                  </div>
+                </div>
+              </div>
+              <p></p>
 
         </div>
         <div id="Autumn" class="container-fluid bg-secondary text-white" style="padding:140px 20px;">
-         <h1>Section 3</h1>
+         <h1>秋·活</h1>
          <p>Dreams are moments. Night is long. Yet we linger in the past.</p>
-
-         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" carousel-indicator-height="3px">
-           <div class="carousel-indicators">
-             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-           </div>
-           <div class="carousel-inner">
-             <div class="carousel-item active">
-               <img src="posterCOCONUT.png" class="d-block w-100" alt="...">
-             </div>
-             <div class="carousel-item">
-               <img src="posterMENU1.png" class="d-block w-100" alt="...">
-             </div>
-             <div class="carousel-item">
-               <img src="posterMENU2.png" class="d-block w-100" alt="...">
-             </div>
-             <div class="carousel-item">
-               <img src="posterYOGURT.png" class="d-block w-100" alt="...">
-             </div>
-           </div>
-           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-             <span class="visually-hidden">Previous</span>
-           </button>
-           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-             <span class="visually-hidden">Next</span>
-           </button>
-         </div>
-
-
-
-        </div>
-        <div id="Winter" class="bg-secondary" style="padding:140px 20px;">
-         <h1>Section 3</h1>
-         <p>If you're not in the right mood to sleep now then. Come on, let's drink and have very unmanageable day</p>
-
+         <h5>实习</h5>
 
          <div class="row row-cols-1 row-cols-md-3 g-4">
            <div class="col">
              <div class="card h-100">
+               <img src="mykori4.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h5 class="card-title">Mykori</h5>
+                 <p class="card-text">第一个实习经历为，在拥有5家 MYKORI 甜品店的个体企业（非MYKORI公司）进行营销、行政与门店管理的工作，以品牌角度，直达消费者表达的诉求，进行消费者洞察。深入了解学习，品牌符号的支撑、消费者对于营销与促销的需求、吸引注意的内容信息以及宣传中的语言使用和设计等品牌的运营。实体实习在线上上课的学年（2020年末至2022年7月），</p>
+                 <a href="https://www.instagram.com/mykoridessertcafe/" target="_blank" class="btn btn-secondary" >Mykori</a>
+               </div>
+             </div>
+           </div>
+           <div class="col">
+             <div class="card h-100">
                <img src="macaron1.jpg" class="card-img-top" alt="...">
                <div class="card-body">
-                 <h5 class="card-title">Card title</h5>
-                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                 <a href="#" class="btn btn-secondary" >Maron</a>
+                 <h5 class="card-title">Maron</h5>
+                   <p class="card-text">合作创立微型个体企业 MARON 甜品品牌。在品牌企业中进行网络营销中的品牌搭建、品牌推广、运营企划、消费者购买交易、品牌官网建设以及各个平台的账号内容运营。因课业繁忙已转售至其他伙伴。</p>
+                   <a href="https://maron.com.my/" target="_blank" class="btn btn-secondary" >Maron</a>
+
                </div>
              </div>
            </div>
            <div class="col">
              <div class="card h-100">
-               <img src="..." class="card-img-top" alt="...">
+               <img src="chirusquare.jpg" class="card-img-top" alt="...">
                <div class="card-body">
-                 <h5 class="card-title">Card title</h5>
-                 <p class="card-text">This is a short card.</p>
+                 <h5 class="card-title">Chiru</h5>
+                 <p class="card-text">前身为酸奶饮料店，实习中参与产品营销、内容创想、海报设计、行政等工作.</p>
+                 <a href="https://www.instagram.com/chirucafe_/" target="_blank" class="btn btn-secondary" >Chiru</a>
                </div>
              </div>
            </div>
-           <div class="col">
-             <div class="card h-100">
-               <img src="chiru.jpg" class="card-img-top" alt="...">
-               <div class="card-body">
-                 <h5 class="card-title">Card title</h5>
-                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-               </div>
-             </div>
-           </div>
-           <div class="col">
-             <div class="card h-100">
-               <img src="..." class="card-img-top" alt="...">
-               <div class="card-body">
-                 <h5 class="card-title">Card title</h5>
-                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-               </div>
-             </div>
-           </div>
+
          </div>
 
+
+         </div>
         </div>
-    <title>Hello, world!</title>
+
+
+
+        <div id="Winter" class="bg-secondary text-white" style="padding:140px 20px";>
+         <h1>东·屿</h1>
+         <p>If you're not in the right mood to sleep now then. Come on, let's drink and have very unmanageable day.</p>
+         <h5>实习时菜单设计与拍摄</h5>
+
+<!--pic-->
+<div class="row row-cols-1 row-cols-md-4 g-4">
+<div class="col">
+  <div class="card">
+    <img src="maron10.jpg" class="card-img-top" alt="...">
+
+  </div>
+</div>
+<div class="col">
+  <div class="card">
+    <img src="maron1.jpg" class="card-img-top" alt="...">
+
+  </div>
+</div>
+<div class="col">
+  <div class="card">
+    <img src="maron8.jpg" class="card-img-top" alt="...">
+
+  </div>
+</div>
+<div class="col">
+  <div class="card">
+    <img src="macaron1.jpg" class="card-img-top" alt="...">
+
+  </div>
+</div>
+</div>
+
+<p></p>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+<div class="col">
+  <div class="card">
+    <img src="maron11.jpg" class="card-img-top" alt="...">
+
+  </div>
+</div>
+<div class="col">
+  <div class="card">
+    <img src="maron7.jpg" class="card-img-top" alt="...">
+
+  </div>
+</div>
+<div class="col">
+  <div class="card">
+    <img src="maron12.jpg" class="card-img-top" alt="...">
+
+  </div>
+</div>
+
+</div>
+
+<p></p>
+<h1> </h1>
+
+         <!--menu-->
+                  <div class="row row-cols-1 row-cols-md-5 g-4">
+                  <div class="col">
+                    <div class="card">
+                      <img src="posterCOCONUT.png" class="card-img-top" alt="...">
+
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="posterMENU1.png" class="card-img-top" alt="...">
+
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="posterMENU2.png" class="card-img-top" alt="...">
+
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="posterMENU3.png" class="card-img-top" alt="...">
+
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card">
+                      <img src="buy2get3.jpg" class="card-img-top" alt="...">
+
+                    </div>
+                  </div>
+                </div>
+
+
+
+        </div>
+
 
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
 <!--toast-->
     <script>
@@ -223,6 +351,16 @@
       })
     }
 
+
+    const toastTrigger2 = document.getElementById('liveToastBtn2')
+    const toastLiveExample2 = document.getElementById('liveToast2')
+
+    if (toastTrigger2) {
+      const toastBootstrap2 = bootstrap.Toast.getOrCreateInstance(toastLiveExample2)
+      toastTrigger2.addEventListener('click', () => {
+        toastBootstrap2.show()
+      })
+    }
 
     </script>
 
